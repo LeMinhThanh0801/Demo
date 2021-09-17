@@ -1,0 +1,13 @@
+!content-type:tours
+name: tours
+label: Tours
+
+
+# Optionally override any of the app configuration supplied by the content type.
+subApps:
+ detail:
+   label: Tour Detail
+   form:
+     properties:
+       isFeatured:
+         buttonLabel: Featured
